@@ -97,12 +97,12 @@ if (qeydiyyat) {
                     console.log("Sizin artiq kreditiniz var.");
                     break;
                   } else {
-                    console.alert("Sizin artiq kreditiniz var.");
+                    alert("Sizin artiq kreditiniz var.");
                     break;
                   }
                 }
               } else {
-                console.alert("Odenisi tekirarlamaqdan imtina etdiz.");
+                alert("Odenisi tekirarlamaqdan imtina etdiz.");
                 break;
               }
             } else {
@@ -113,14 +113,14 @@ if (qeydiyyat) {
                 if (confirm("Yeniden odenis et.")) {
                   continue;
                 } else {
-                  console.alert("Odenisi tekirarlamaqdan imtina etdiz.");
+                  alert("Odenisi tekirarlamaqdan imtina etdiz.");
                   break;
                 }
               } else if (kredit != 0) {
                 console.log("Sizin artiq kreditiniz var.");
                 break;
               } else {
-                console.alert("Siz kredit goturmek isdemediz.");
+                alert("Siz kredit goturmek isdemediz.");
                 break;
               }
             }
