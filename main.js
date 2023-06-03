@@ -127,7 +127,6 @@ if (qeydiyyat) {
           } while (true);
         } else {
           alert("Hesabdan cixis olundu !");
-          break;
         }
       } while (true);
     } else {
