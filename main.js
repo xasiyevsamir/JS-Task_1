@@ -151,6 +151,7 @@ if (qeydiyyat) {
 
 //Ulduz taskininin helli.
 /*var data;
+console.log("Hello")
 for (var i = 0; i < 9; i++) {
   data = "";
   for (var j = 1; j < 9 - i; j++) {
