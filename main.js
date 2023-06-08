@@ -15,7 +15,6 @@ if (qeydiyyat) {
       check = Boolean(Number(maais));
       if (maais === null && confirm("Cixisi tesdiq edirsiz ?")) {
         alert("Cixis olundu !");
-        console.log("peyser");
         break;
       } else if (maais != null) {
         if (!check) {
